@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+header{
+    width: 100%;
+    height: 160px;
+    background-color: black;
+    border:3px solid black;
+    position: fixed;
+    z-index: 2;
+    font-size: 25px;
+}
+.green{
+    float: left;
+    color:white;
+    margin: 50px;
+}
+
+img{
+    width: 200px;
+    float: right;
+    margin: 30px; 
+}
+
+.maincontant{
+    width: 100%;
+    height: 900px;
+    border:1px solid black;
+    color: green;
+    background-color: green;
+    padding-top:166px;
+    margin-bottom: 20px;
+}
+.mv{
+    width: 90%;
+    height: 800px;
+    border:3px solid white;
+    margin: 50px auto;
+    background-image: url(img/P1050774.jpg);
+    background-size:cover;
+    
+}
+
+.mvtext{
+    width: 80%;
+    margin-right:10px;
+    font-size: 50px;
+    float: right;
+    border-bottom: 2px solid white;
+    color: white;
+    margin: 80px 80px 0;
+}
+
+.mvtext span {
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+    float: right;
+    padding: 30px 100px 0 0;
+    color: white;
+    font-weight: lighter;
+    /*margin: 20px;*/
+}
+
+.mvtext2{
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    float: right;
+    padding: 0px 40px 0 20px;
+    color: white;
+    font-weight: lighter;
+    margin: 0px;
+
+}
+
+.nav{
+    width: 600px;
+    height: 50px;
+    background-color: green;
+    color:black;
+    /*float: left;*/
+    font-size: 20px;
+    /*margin: 0 auto;*/
+    text-align: center;
+    line-height: 50px;
+}
+
+
+.nav2{
+    width: 600px;
+    height: 50px;
+    background-color: green;
+    color:black;
+    /*float: right;*/
+    font-size: 20px;
+    /*margin: 0 auto;*/
+    text-align: center;
+    line-height: 50px;
+
+}
+
+
+.nav3{
+    width: 500px;
+    height: 400px;
+    /*background-color: gray;*/
+    margin: 0 auto;
+    /*padding-top: 50px;*/
+    /*float: left;*/
+     background-image: url(img/P1050771.jpg);
+     background-size:cover;
+ 
+    
+
+}
+
+.nav4{
+    width: 500px;
+    height: 400px;
+    background-color: gray;
+    /*float: right;*/
+    background-image: url(img/P1050761.jpg);
+    background-size:cover;
+    margin: 0 auto;
+
+}
+
+.left-box{
+    float: left;
+    margin-left: 20px;
+}
+
+.right-box{
+    float: right;
+    margin-right: 20px;
+}
+
+.img-box{
+    background-color: black;
+    padding: 20px;
+}
